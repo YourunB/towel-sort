@@ -10,7 +10,7 @@ module.exports = function towelSort (matrix) {
       }
     }
     if (i % 2 != 0) {
-      for (let j = matrix[i].length - 1; j > 0 ; j--) {
+      for (let j = matrix[i].length - 1; j >= 0 ; j--) {
         result.push(matrix[i][j]);
       }
     }
